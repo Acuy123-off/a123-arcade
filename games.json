@@ -14,6 +14,13 @@
     "embedUrl": "https://acuy123-off.github.io/Nembak/"
   },
   {
+    "id": "bad-ice-cream",
+    "title": "Bad Ice Cream",
+    "category": ["Arcade", "Puzzle", "Action"],
+    "thumbnail": "assets/foto/bic.png",
+    "embedUrl": "https://bad-icecream3.com/gg/bad-ice-cream-unblocked/"
+  },
+  {
     "id": "wttd",
     "title": "Walking To The Death",
     "category": ["Adventure", "Point-Click"],
