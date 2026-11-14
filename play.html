@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bermain - A123ARCADE</title>
+  <link rel="stylesheet" href="assets/bootstrap.min.css" />
+  <link rel="stylesheet" href="dathing/style.css" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar bg-surface sticky-top border-bottom border-secondary border-opacity-25 px-3 py-2">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white fw-bold fs-4 m-0" href="index.html">
+        A123<span class="text-accent">ARCADE</span>
+      </a>
+      <a href="index.html" class="text-secondary text-decoration-none small">&larr; Back To Catalog</a>
+    </div>
+  </nav>
+
+  <!-- Konten Utama -->
+  <div class="container-fluid px-4 py-4 flex-grow-1">
+    <div class="row g-4">
+      
+      <!-- Kolom Kiri: Pemutar Game -->
+      <div class="col-lg-9">
+        <div class="bg-surface rounded-4 overflow-hidden shadow">
+          <div class="ratio ratio-16x9 bg-black" id="gameContainer">
+            <iframe id="gameFrame" src="" allowfullscreen allow="autoplay; fullscreen; gamepad"></iframe>
+          </div>
+          <div class="p-3 d-flex justify-content-between align-items-center">
+            <div>
+              <h2 id="gameTitle" class="h5 fw-bold mb-0">Memuat game...</h2>
+              <span id="gameCategory" class="text-secondary small"></span>
+            </div>
+            <button class="btn btn-accent fw-semibold px-3" id="fullscreenBtn">Fullscreen</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kolom Kanan: Sidebar Play Next -->
+      <div class="col-lg-3">
+        <h3 class="h5 fw-bold mb-3">Play next</h3>
+        <div class="row row-cols-2 g-2" id="nextGamesGrid"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer Credit & Copyright -->
+  <footer class="bg-surface border-top border-secondary border-opacity-25 py-4 mt-auto">
+    <div class="container-fluid px-4">
+      <div class="row align-items-center gy-2">
+        <div class="col-md-6 text-center text-md-start">
+          <span class="fw-bold text-white">A123<span class="text-accent">ARCADE</span></span>
+          <p class="text-secondary small mb-0 mt-1">
+            &copy; 2026 A123ARCADE. 
+          </p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p class="text-secondary small mb-0">
+            Made By <a href="https://www.youtube.com/@Acuy123"><span class="text-white fw-semibold">Acuy123</span></a> &bull; Powered by GitHub Pages
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <script src="dathing/script.js"></script>
+</body>
+</html>

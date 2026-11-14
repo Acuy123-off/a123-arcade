@@ -1,0 +1,70 @@
+:root {
+  --bg-main: #0c0d14;
+  --bg-surface: #181924;
+  --accent: #6c5ce7;
+  --accent-hover: #8072f0;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-surface {
+  background-color: var(--bg-surface) !important;
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+/* Tombol Kustom */
+.btn-accent {
+  background-color: var(--accent);
+  color: #fff;
+  border: none;
+}
+
+.btn-accent:hover {
+  background-color: var(--accent-hover);
+  color: #fff;
+}
+
+/* Search Input Dark */
+.search-input {
+  background-color: var(--bg-main);
+  border: 1px solid #2e3142;
+  color: #fff;
+}
+
+.search-input:focus {
+  background-color: var(--bg-main);
+  border-color: var(--accent);
+  color: #fff;
+  box-shadow: 0 0 0 0.2rem rgba(108, 92, 231, 0.25);
+}
+
+/* Kartu Game & Animasi Hover */
+.game-card {
+  background-color: var(--bg-surface);
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(108, 92, 231, 0.3);
+}
+
+.game-card img {
+  height: 140px;
+  object-fit: cover;
+}
+
+.next-card img {
+  height: 85px;
+  object-fit: cover;
+}

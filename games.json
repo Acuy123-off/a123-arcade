@@ -1,0 +1,23 @@
+[
+  {
+    "id": "clumsy-bird",
+    "title": "Clumsy Bird",
+    "category": "Arcade",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=500&q=80",
+    "embedUrl": "https://ellisonleao.github.io/clumsy-bird/"
+  },
+  {
+    "id": "acuy123-nembak",
+    "title": "Acuy123 Nembak",
+    "category": "Arcade",
+    "thumbnail": "assets/foto/dor.png",
+    "embedUrl": "https://acuy123-off.github.io/Nembak/"
+  },
+  {
+    "id": "wttd",
+    "title": "Walking To The Death",
+    "category": ["Adventure", "Point-Click"],
+    "thumbnail": "assets/foto/wttd.png",
+    "embedUrl": "https://acuy123-off.github.io/WTTD-Demo/"
+  }
+]

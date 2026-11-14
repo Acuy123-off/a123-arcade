@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A123ARCADE - Play It For Free</title>
+  <link rel="stylesheet" href="assets/bootstrap.min.css" />
+  <link rel="stylesheet" href="dathing/style.css" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar bg-surface sticky-top border-bottom border-secondary border-opacity-25 px-3 py-2">
+    <div class="container-fluid d-flex justify-content-between align-items-center gap-3">
+      <a class="navbar-brand text-white fw-bold fs-4 m-0" href="index.html">
+        A123<span class="text-accent">ARCADE</span>
+      </a>
+      <div class="flex-grow-1" style="max-width: 480px;">
+        <input type="text" id="searchInput" class="form-control rounded-pill search-input px-3" placeholder="Cari game..." />
+      </div>
+    </div>
+  </nav>
+
+  <!-- Filter Kategori -->
+  <div class="container-fluid px-4 pt-3">
+    <div class="d-flex flex-wrap gap-2" id="categoryFilters">
+      <button class="btn btn-sm rounded-pill px-3 fw-semibold btn-accent cat-btn active" data-cat="All">All</button>
+      <button class="btn btn-sm rounded-pill px-3 fw-semibold bg-surface text-secondary cat-btn" data-cat="Adventure">Adventure</button>
+      <button class="btn btn-sm rounded-pill px-3 fw-semibold bg-surface text-secondary cat-btn" data-cat="Arcade">Arcade</button>
+    </div>
+  </div>
+
+  <!-- Grid Katalog Game -->
+  <main class="container-fluid px-4 py-4 flex-grow-1">
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3" id="gamesGrid"></div>
+  </main>
+
+  <!-- Footer Credit & Copyright -->
+  <footer class="bg-surface border-top border-secondary border-opacity-25 py-4 mt-auto">
+    <div class="container-fluid px-4">
+      <div class="row align-items-center gy-2">
+        <div class="col-md-6 text-center text-md-start">
+          <span class="fw-bold text-white">A123<span class="text-accent">ARCADE</span></span>
+          <p class="text-secondary small mb-0 mt-1">
+            &copy; 2026 A123ARCADE.
+          </p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p class="text-secondary small mb-0">
+            Made By <a href="https://www.youtube.com/@Acuy123"><span class="text-white fw-semibold">Acuy123</span></a> &bull; Powered by GitHub Pages
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <script src="dathing/script.js"></script>
+</body>
+</html>
