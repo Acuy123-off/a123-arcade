@@ -44,5 +44,100 @@
     "guide": [
       "Click on the options on the screen to move."
     ]
+  },
+  {
+    "id": "gamebreaker-incredibox",
+    "title": "Gamebreaker - Incredibox",
+    "creator": "Expensive_Chb",
+    "category": ["Music"],
+    "thumbnail": "assets/foto/GB.png",
+    "embedUrl": "assets/games/Incredibox_ Gamebreaker (OFFICIAL COCREA PORT).html",
+    "guide": [
+      "Drag and drop an icon on a character to have him sing.",
+      "Drag down a character to have him stop singing."
+    ]
+  },
+  {
+    "id": "orinayo-joyed-incredibox",
+    "title": "Orin Ayo Joyed - Incredibox",
+    "creator": "KhristianGamerZ",
+    "category": ["Music"],
+    "thumbnail": "assets/foto/OAJ.png",
+    "embedUrl": "assets/games/Orin Ayo JOYED Fully Animated.html",
+    "guide": [
+      "Drag and drop an icon on a character to have him sing.",
+      "Drag down a character to have him stop singing."
+    ]
+  },
+  {
+    "id": "tragibox-incredibox",
+    "title": "Tragibox V1_Orin Ayo Remake - Incredibox",
+    "creator": "KhristianGamerZ",
+    "category": ["Music"],
+    "thumbnail": "assets/foto/OARemake.png",
+    "embedUrl": "assets/games/Tragibox V1_ Orin Ayo Remake (Gandi Port).html",
+    "guide": [
+      "Drag and drop an icon on a character to have him sing.",
+      "Drag down a character to have him stop singing."
+    ]
+  },
+  {
+    "id": "orinayo-v2-incredibox",
+    "title": "Orin Ayo V2 - Incredibox",
+    "creator": "KhristianGamerZ",
+    "category": ["Music"],
+    "thumbnail": "assets/foto/OAV2.png",
+    "embedUrl": "assets/games/Tragibox_ Orin Ayo V2 Fully Animated.html",
+    "guide": [
+      "Drag and drop an icon on a character to have him sing.",
+      "Drag down a character to have him stop singing."
+    ]
+  },
+  {
+    "id": "yubinniiku-incredibox",
+    "title": "Yubin Niiku : The Postal Killer - Incredibox",
+    "creator": "Tislub",
+    "category": ["Music"],
+    "thumbnail": "assets/foto/YN.png",
+    "embedUrl": "assets/games/YUBIN NIIKU_ The postal killer.html",
+    "guide": [
+      "Drag and drop an icon on a character to have him sing.",
+      "Drag down a character to have him stop singing."
+    ]
+  },
+  {
+    "id": "yubinniiku2-incredibox",
+    "title": "Yubin Niiku 2 : Dionysos' Denial - Incredibox",
+    "creator": "Tislub",
+    "category": ["Music"],
+    "thumbnail": "assets/foto/YN2.png",
+    "embedUrl": "assets/games/YUBIN NIIKU 2_ Dionysos' Denial.html",
+    "guide": [
+      "Drag and drop an icon on a character to have him sing.",
+      "Drag down a character to have him stop singing."
+    ]
+  },
+  {
+    "id": "yubinniiku3-incredibox",
+    "title": "Yubin Niiku 3 : Katabasis - Incredibox",
+    "creator": "Tislub",
+    "category": ["Music"],
+    "thumbnail": "assets/foto/YN3.png",
+    "embedUrl": "assets/games/YUBIN NIIKU 3_ Katabasis.html",
+    "guide": [
+      "Drag and drop an icon on a character to have him sing.",
+      "Drag down a character to have him stop singing."
+    ]
+  },
+  {
+    "id": "snake",
+    "title": "Snake",
+    "creator": "Acuy123",
+    "category": ["Arcade"],
+    "thumbnail": "assets/foto/snake.png",
+    "embedUrl": "assets/games/snake.html",
+    "guide": [
+      "Use arrow keys to move the snake"
+    ]
   }
 ]
