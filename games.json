@@ -130,7 +130,7 @@
     ]
   },
   {
-    "id": "fnfvocaloid-incredibox",
+    "id": "fnfvocaloid",
     "title": "FNF Vocaloid Pack",
     "creator": "Klyro",
     "category": ["Music"],
@@ -139,6 +139,39 @@
     "guide": [
       "Use the Arrow Keys/WASD keys to hit the note.",
       "Click Enter to Select/Confirm."
+    ]
+  },
+  {
+    "id": "subway-surfers",
+    "title": "Subway Surfers",
+    "creator": "SYBO Games",
+    "category": ["Arcade"],
+    "thumbnail": "assets/foto/subway.jpg",
+    "embedUrl": "https://www.madkidgames.com/full/subway-surfers",
+    "guide": [
+      "Use the Arrow Keys/WASD keys to move."
+    ]
+  },
+  {
+    "id": "bowmaster",
+    "title": "Bowmaster",
+    "creator": "Playgendary",
+    "category": ["Arcade"],
+    "thumbnail": "assets/foto/bowmas.jpg",
+    "embedUrl": "https://www.madkidgames.com/full/bowmasters-archery-shooting",
+    "guide": [
+      "Use mouse to aim projectile."
+    ]
+  },
+  {
+    "id": "stickwar-legacy",
+    "title": "Stick War : Legacy",
+    "creator": "Max Games Studios",
+    "category": ["Strategy"],
+    "thumbnail": "assets/foto/stickw.jpg",
+    "embedUrl": "https://www.madkidgames.com/full/stick-war-legacy",
+    "guide": [
+      "Use mouse to Select units, command armies, and interact with UI."
     ]
   },
   {
