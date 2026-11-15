@@ -34,7 +34,6 @@ function initCatalogPage(allGames) {
     const keyword = searchInput.value.toLowerCase();
 
     const filtered = allGames.filter(game => {
-      // Cek apakah kategori cocok (mendukung array maupun string tunggal)
       const matchCat =
         currentCategory === 'All' ||
         (Array.isArray(game.category)
@@ -50,8 +49,13 @@ function initCatalogPage(allGames) {
         <a href="play.html?id=${game.id}" class="card h-100 text-decoration-none text-white game-card">
           <img src="${game.thumbnail}" class="card-img-top" alt="${game.title}" loading="lazy" />
           <div class="card-body p-2 px-3">
-            <h6 class="card-title fw-bold mb-1 text-truncate">${game.title}</h6>
-            <small class="text-secondary d-block text-truncate">${formatCategories(game.category)}</small>
+            <h6 class="card-title fw-bold mb-0 text-truncate">${game.title}</h6>
+            <small class="text-accent d-block text-truncate mb-1" style="font-size: 0.75rem;">
+              By ${game.creator || 'Unknown'}
+            </small>
+            <small class="text-secondary d-block text-truncate" style="font-size: 0.75rem;">
+              ${formatCategories(game.category)}
+            </small>
           </div>
         </a>
       </div>
@@ -86,7 +90,9 @@ function initPlayerPage(games) {
 
   const gameFrame = document.getElementById('gameFrame');
   const gameTitle = document.getElementById('gameTitle');
+  const gameCreator = document.getElementById('gameCreator');
   const gameCategory = document.getElementById('gameCategory');
+  const gameGuide = document.getElementById('gameGuide');
   const nextGamesGrid = document.getElementById('nextGamesGrid');
   const fullscreenBtn = document.getElementById('fullscreenBtn');
   const gameContainer = document.getElementById('gameContainer');
@@ -96,8 +102,18 @@ function initPlayerPage(games) {
   if (activeGame) {
     document.title = `${activeGame.title} - A123ARCADE`;
     gameTitle.textContent = activeGame.title;
+    gameCreator.textContent = activeGame.creator || 'Unknown';
     gameCategory.textContent = formatCategories(activeGame.category);
     gameFrame.src = activeGame.embedUrl;
+
+    // Render Guide / Cara Bermain
+    if (Array.isArray(activeGame.guide)) {
+      gameGuide.innerHTML = activeGame.guide.map(step => `<li>${step}</li>`).join('');
+    } else if (activeGame.guide) {
+      gameGuide.innerHTML = `<li>${activeGame.guide}</li>`;
+    } else {
+      gameGuide.innerHTML = '<li>Tidak ada instruksi khusus untuk game ini.</li>';
+    }
   }
 
   const otherGames = games.filter(g => g.id !== activeGame.id);

@@ -2,29 +2,47 @@
   {
     "id": "clumsy-bird",
     "title": "Clumsy Bird",
+    "creator": "Ellison Leão",
     "category": "Arcade",
     "thumbnail": "assets/foto/cb.png",
-    "embedUrl": "https://ellisonleao.github.io/clumsy-bird/"
+    "embedUrl": "https://ellisonleao.github.io/clumsy-bird/",
+    "guide": [
+      "Left-click the mouse or press the Spacebar to flap your wings and fly."
+    ]
   },
   {
     "id": "acuy123-nembak",
     "title": "Acuy123 Nembak",
+    "creator": "Acuy123",
     "category": "Arcade",
     "thumbnail": "assets/foto/dor.png",
-    "embedUrl": "https://acuy123-off.github.io/Nembak/"
+    "embedUrl": "https://acuy123-off.github.io/Nembak/",
+    "guide": [
+      "Left-click the mouse to shoot a target.",
+      "Use WASD to move the character"
+    ]
   },
   {
     "id": "bad-ice-cream",
     "title": "Bad Ice Cream",
+    "creator": "Nitrome",
     "category": ["Arcade", "Puzzle", "Action"],
     "thumbnail": "assets/foto/bic.png",
-    "embedUrl": "https://bad-icecream3.com/gg/bad-ice-cream-unblocked/"
+    "embedUrl": "https://bad-icecream3.com/gg/bad-ice-cream-unblocked/",
+    "guide": [
+      "Use the Arrow Keys/WASD keys to move.",
+      "Press Space to create or destroy ice blocks."
+    ]
   },
   {
-    "id": "wttd",
-    "title": "Walking To The Death",
+    "id": "wttd-demo",
+    "title": "Walking To The Death (DEMO)",
+    "creator": "Acuy123",
     "category": ["Adventure", "Point-Click"],
     "thumbnail": "assets/foto/wttd.png",
-    "embedUrl": "https://acuy123-off.github.io/WTTD-Demo/"
+    "embedUrl": "https://acuy123-off.github.io/WTTD-Demo/",
+    "guide": [
+      "Click on the options on the screen to move."
+    ]
   }
 ]

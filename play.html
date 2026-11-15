@@ -23,19 +23,32 @@
   <div class="container-fluid px-4 py-4 flex-grow-1">
     <div class="row g-4">
       
-      <!-- Kolom Kiri: Pemutar Game -->
+      <!-- Kolom Kiri: Pemutar Game & Guide -->
       <div class="col-lg-9">
+        <!-- Kotak Iframe Game -->
         <div class="bg-surface rounded-4 overflow-hidden shadow">
           <div class="ratio ratio-16x9 bg-black" id="gameContainer">
             <iframe id="gameFrame" src="" allowfullscreen allow="autoplay; fullscreen; gamepad"></iframe>
           </div>
-          <div class="p-3 d-flex justify-content-between align-items-center">
+          <div class="p-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
             <div>
-              <h2 id="gameTitle" class="h5 fw-bold mb-0">Memuat game...</h2>
-              <span id="gameCategory" class="text-secondary small"></span>
+              <h2 id="gameTitle" class="h5 fw-bold mb-1">Memuat game...</h2>
+              <div class="small text-secondary">
+                <span>By <strong id="gameCreator" class="text-white">-</strong></span>
+                <span class="mx-2">&bull;</span>
+                <span id="gameCategory"></span>
+              </div>
             </div>
             <button class="btn btn-accent fw-semibold px-3" id="fullscreenBtn">Fullscreen</button>
           </div>
+        </div>
+
+        <!-- Kolom Baru: Guide / Cara Bermain -->
+        <div class="bg-surface rounded-4 p-4 mt-4 shadow">
+          <h3 class="h6 fw-bold text-uppercase text-accent mb-3">How to Play / Guide</h3>
+          <ul id="gameGuide" class="text-light small mb-0 ps-3 d-flex flex-column gap-2">
+            <li>Memuat panduan...</li>
+          </ul>
         </div>
       </div>
 
