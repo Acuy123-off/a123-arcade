@@ -130,6 +130,18 @@
     ]
   },
   {
+    "id": "fnfvocaloid-incredibox",
+    "title": "FNF Vocaloid Pack",
+    "creator": "Klyro",
+    "category": ["Music"],
+    "thumbnail": "assets/foto/fnfvocaloid.png",
+    "embedUrl": "https://fnf.kdata1.com/2026/vocaloid/1/d/",
+    "guide": [
+      "Use the Arrow Keys/WASD keys to hit the note.",
+      "Click Enter to Select/Confirm."
+    ]
+  },
+  {
     "id": "snake",
     "title": "Snake",
     "creator": "Acuy123",
